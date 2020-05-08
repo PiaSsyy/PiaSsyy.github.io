@@ -1,0 +1,36 @@
+body {
+    width:980px;
+    margin:0 auto;
+}
+header {
+    height:150px;
+    background-color:#009b9f;
+}
+.headerlogo {
+    height:100px;
+}
+.sidebar {
+    width:150px;
+    min-height:500px;
+    height:auto;
+    background-color:#009b9f;
+    float:left;
+    margin-top:10px;
+}
+.sidebar > ul {
+    list-style:none;
+}
+.main-container { 
+    margin-left:260px;
+    width:720px;
+    min-height:500px;
+    height:auto;
+    background-color:#009b9f;
+    margin-top:10px;
+}
+footer { 
+    margin-top:10px;
+    width:980px;
+    height:100px;
+    background-color:#009b9f;
+}
