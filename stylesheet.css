@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -37,3 +38,41 @@ footer {
 }
 
 
+=======
+body {
+    width:980px;
+    margin:0 auto;
+}
+header {
+    height:150px;
+    background-color:#009b9f;
+}
+.headerlogo {
+    height:100px;
+}
+.sidebar {
+    width:150px;
+    min-height:500px;
+    height:auto;
+    background-color:#009b9f;
+    float:left;
+    margin-top:10px;
+}
+.sidebar > ul {
+    list-style:none;
+}
+.main-container { 
+    margin-left:260px;
+    width:720px;
+    min-height:500px;
+    height:auto;
+    background-color:#009b9f;
+    margin-top:10px;
+}
+footer { 
+    margin-top:10px;
+    width:980px;
+    height:100px;
+    background-color:#009b9f;
+}
+>>>>>>> f01a97b6844b47f6682ce090f7210d64e3d29111
