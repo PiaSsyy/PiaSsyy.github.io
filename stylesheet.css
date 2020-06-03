@@ -10,14 +10,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
     display:grid;
     grid-template:
-        "left   center right"150px
-        "m      m      m"    1fr
-        "footer footer footer"300px
+        "left   cente  right"150px
+         m      m      m
+         footer footer footer"
         /200px  1fr    200px;
 }
 
 .l-header {
     grid-area: left;
+    position:fixed;
 }
 
 .c-header {
@@ -30,10 +31,13 @@ body {
 
 main {
     grid-area: m;
+
+}
+
+.main-logo {
+    margin:auto;
 }
 
 footer {
     grid-area: footer;
 }
-
-
