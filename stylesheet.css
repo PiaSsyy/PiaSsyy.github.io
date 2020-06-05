@@ -7,37 +7,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-body {
-    display:grid;
-    grid-template:
-        "left   cente  right"150px
-         m      m      m
-         footer footer footer"
-        /200px  1fr    200px;
-}
-
-.l-header {
-    grid-area: left;
-    position:fixed;
-}
-
-.c-header {
-    grid-area: center;
-}
-
-.r-header {
-    grid-area: right;
+.main-logo {
+  text-align:center;
 }
 
 main {
-    grid-area: m;
-
-}
-
-.main-logo {
-    margin:auto;
-}
-
-footer {
-    grid-area: footer;
+  text-align: center;
 }
